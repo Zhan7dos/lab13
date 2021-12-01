@@ -1,10 +1,11 @@
 package com.company;
 
 public class OtandykFilm implements MediaPlayer{
-    private   String name,
+    private   String
     zhanr,
-    resiger;
-     String year;
+    resiger,
+    year;
+    String name;
 
     public OtandykFilm(String name, String zhanr, String resiger,String year){
         this.name = name;
